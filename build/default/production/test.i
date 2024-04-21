@@ -694,7 +694,7 @@ void main(void) {
     OPTION_REGbits.PSA = 0;
 
 
-    OPTION_REGbits.PS = 7;
+    OPTION_REGbits.PS =7;
     INTCONbits.T0IF = 0;
     INTCONbits.T0IE = 1;
     INTCONbits.GIE = 1;
